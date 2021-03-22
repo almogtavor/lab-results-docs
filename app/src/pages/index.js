@@ -17,18 +17,19 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
+    title: 'מקצה לקצה',
     imageUrl: 'img/PCRR-768x512.png',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        מסלול מעבדות אוסף את נתוני בדיקות הקורונה
+         הישר מן המעבדות, ועד להנגשתן ללקוחות השונים - 
+        בינהם המערכת לחוקרים אפידמיולוגיים, מגן אבות, דאשבורדים של המשרד ועוד
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/rouska-covid.png',
+    title: 'איכות המידע וההנגשה',
+    imageUrl: 'img/Data_Quality_360.png',
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -37,12 +38,15 @@ const features = [
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'גיוון החומר',
     imageUrl: 'img/sample-collection-for-rt-pcr.png',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        המסלול תומך בשלל סוגי חומר.
+         ביניהם נתוני בדיקות קורונה (מטושים), סרולוגיה,
+         בדיקות קורונה מהירות, איגומי מטושים ועוד.
+          המסלול מפעיל בהתאם לוגיקות כגון חישובים עצמאיים
+           של תוצאות בעקבות מידע קודם, אימותי פרוטוקול, הצלבות ועוד  
       </>
     ),
   },
@@ -68,7 +72,7 @@ export default function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
@@ -81,7 +85,7 @@ export default function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
-              Get Started
+              התחל
             </Link>
           </div>
         </div>

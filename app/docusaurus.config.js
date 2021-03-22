@@ -9,21 +9,21 @@
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'פרויקט מסלול מעבדות וסרולוגיה',
-  tagline: 'The tagline of Lab Results Project Documentation',
+  title: 'דוקומנטציית מסלול מעבדות',
+  tagline: 'תיעוד לפרויקט מסלול מעבדות של מפעל המידע - פותח ותועד על ידי צוות 50% ',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'MOH', // Usually your GitHub org/user name.
+  projectName: 'lab-results-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Facebook Project',
+      title: 'מסלול מעבדות - מפעל המידע',
       logo: {
-        alt: 'My Facebook Project Logo',
-        src: 'img/swab.png',
+        alt: 'Lab Results Logo',
+        src: 'img/labresults.png',
       },
       items: [
         {
@@ -35,7 +35,7 @@ module.exports = {
         {to: 'blog', label: 'Blog', position: 'left'},
         // Please keep GitHub link to the right for consistency.
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/almogtavor/labresults-docs',
           label: 'GitHub',
           position: 'right',
         },
