@@ -29,7 +29,7 @@ const features = [
   },
   {
     title: 'איכות המידע וההנגשה',
-    imageUrl: 'img/Data_Quality_360.png',
+    imageUrl: 'img/dqa.png',
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
