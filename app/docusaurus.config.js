@@ -9,7 +9,7 @@
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Lab Results Project Documentation',
+  title: 'פרויקט מסלול מעבדות וסרולוגיה',
   tagline: 'The tagline of Lab Results Project Documentation',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
@@ -23,7 +23,7 @@ module.exports = {
       title: 'My Facebook Project',
       logo: {
         alt: 'My Facebook Project Logo',
-        src: 'img/logo.svg',
+        src: 'img/swab.png',
       },
       items: [
         {
