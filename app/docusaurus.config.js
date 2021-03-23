@@ -29,10 +29,19 @@ module.exports = {
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'מסמכים',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {
+          to: 'objects/', 
+          label: 'אוביקטים של המסלול', 
+          position: 'left'
+        },
+        {
+          to: 'blog', 
+          label: 'בלוג', 
+          position: 'left'
+        },
         // Please keep GitHub link to the right for consistency.
         {
           href: 'https://github.com/almogtavor/labresults-docs',
@@ -48,7 +57,7 @@ module.exports = {
           title: 'Learn',
           items: [
             {
-              label: 'Style Guide',
+              label: 'הטבלאות העיקריות ',
               to: 'docs/',
             },
             {
@@ -111,12 +120,12 @@ module.exports = {
         },
       ],
       logo: {
-        alt: 'Facebook Open Source Logo',
-        src: 'img/oss_logo.png',
-        href: 'https://opensource.facebook.com',
+        alt: 'Lab Results Logo',
+        src: 'img/labresults.png',
+        href: '/',
       },
       // Please do not remove the credits, help to publicize Docusaurus :)
-      copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc. Built with Docusaurus.`,
+      copyright: `נכתב על ידי צוות 50% במפעל המידע`,
     },
   },
   presets: [
