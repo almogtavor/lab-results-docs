@@ -76,3 +76,4 @@ typings/
 .fusebox/
 
 .history/
+.vscode/settings.json

@@ -11,7 +11,7 @@
 module.exports = {
   title: 'דוקומנטציית מסלול מעבדות',
   tagline: 'תיעוד לפרויקט מסלול מעבדות של מפעל המידע - פותח ותועד על ידי צוות 50% ',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://almogtavor.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
