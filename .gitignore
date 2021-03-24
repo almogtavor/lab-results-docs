@@ -79,3 +79,4 @@ typings/
 .vscode/settings.json
 .docusaurus/
 build/
+package-lock.json
