@@ -73,7 +73,7 @@ StickerNumber || MethodCode)
 הראשונה תז לא תקין. עדכון באופן כללי זה דבר לגיטימי שאנחנו תומכים בו
 באמצעות פעולת merge בפרוצדורות
 `[DataFactoryOp].[dbo].[Merge_LabResults]`
-ו\[DataFactoryOp\].\[dbo\].\[Merge\_LabResults\_SerologyKits\]. הבעיה
+ו`[DataFactoryOp].[dbo].[Merge_LabResults_SerologyKits]`. הבעיה
 היא שעדכון על אחד משדות הPK יוצר בעיה שכן אנחנו מרכיבים את הentity id על
 פי כן ואז הרשומה שבעדכון תגיע עם entity id אחר. בפונקציות הmerge אנחנו
 עושים את הMerge לפי השדות עצמם (כלומר לפי הid, sticker, labcode ולא לפי

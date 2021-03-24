@@ -11,13 +11,13 @@
 module.exports = {
   title: 'דוקומנטציית מסלול מעבדות',
   tagline: 'תיעוד לפרויקט מסלול מעבדות של מפעל המידע - פותח ותועד על ידי צוות 50% ',
-  url: 'https://almogtavor.github.io',
-  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'MOH', // Usually your GitHub org/user name.
+  url: 'https://almogtavor.github.io/lab-results-docs/',
+  baseUrl: '/',
   projectName: 'lab-results-docs', // Usually your repo name.
+  organizationName: 'MOH', // Usually your GitHub org/user name.
   themeConfig: {
     navbar: {
       title: 'מסלול מעבדות - מפעל המידע',
@@ -31,11 +31,6 @@ module.exports = {
           activeBasePath: 'docs',
           label: 'מסמכים',
           position: 'left',
-        },
-        {
-          to: 'objects/', 
-          label: 'אוביקטים של המסלול', 
-          position: 'left'
         },
         {
           to: 'blog', 

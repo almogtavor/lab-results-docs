@@ -78,3 +78,4 @@ typings/
 .history/
 .vscode/settings.json
 .docusaurus/
+build/
