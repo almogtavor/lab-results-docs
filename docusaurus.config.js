@@ -17,7 +17,7 @@ module.exports = {
   url: 'https://almogtavor.github.io/lab-results-docs/',
   baseUrl: '/',
   projectName: 'lab-results-docs', // Usually your repo name.
-  organizationName: 'MOH', // Usually your GitHub org/user name.
+  organizationName: 'almogtavor', // Usually your GitHub org/user name.
   themeConfig: {
     navbar: {
       title: 'מסלול מעבדות - מפעל המידע',
