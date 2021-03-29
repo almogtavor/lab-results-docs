@@ -30,7 +30,7 @@ const features = [
   },
   {
     title: 'איכות המידע',
-    imageUrl: 'img/dqa.png',
+    imageUrl: 'img/DQA.svg',
     description: (
       <>
           המסלול שם דגש על איכות המידע בעזרת שימוש

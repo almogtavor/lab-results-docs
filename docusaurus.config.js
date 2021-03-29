@@ -15,7 +15,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   url: 'https://almogtavor.github.io/lab-results-docs/',
-  baseUrl: '/',
+  baseUrl: '/lab-results-docs/',
   projectName: 'lab-results-docs', // Usually your repo name.
   organizationName: 'almogtavor', // Usually your GitHub org/user name.
   themeConfig: {
